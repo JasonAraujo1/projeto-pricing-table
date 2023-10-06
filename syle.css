@@ -6,9 +6,160 @@
 
 body{
     height:100vh;
+    border:10px solid var(--bg-color);
+    border-radius: 40px;
+    background-color: var(--bg-color);
+
 }
 
-body*{
-    font-family: ;
+body *{
+    font-family: 'Quicksand', sans-serif;
 
+}
+
+
+
+:root{
+    --bg-color: rgb(212, 210, 210);
+}
+
+
+main{
+    height: 100vh;
+    background-image: url('./assets/pricing-table-background.png') ;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+/*MAIN CABEÇALHO*/
+
+div h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+div h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    text-wrap:wrap;
+    width: 553px;
+    margin: auto;/*precisei usar mesmo ja tendo aling items porque defini uma largura, e o margin auto funciona nesses casos*/
+    text-align: center;
+
+    padding-bottom: 65px;
+}
+
+
+
+/*MAIN BOXES*/
+
+section{
+    border: 2px solid red;
+
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+
+section div ul {    /*lista*/
+    list-style: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+
+    padding-bottom: 120px;
+}
+
+section div p:nth-child(1){ /*Free*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+    padding-bottom: 20px;
+}
+
+section div h2{ /*99,99*/
+    border: 2px solid red;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+
+    padding-bottom: 10px;
+}
+
+#box1 h2 p,/*  texto "/mês" */
+#box2 h2 p,
+#box3 h2 p {
+    color:  #828799;
+}
+
+section div p:nth-child(3){/*descrição da box*/
+    color: blue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+    padding-bottom: 40px;
+}
+
+
+/*BUTTON*/
+
+button{
+
+}
+
+
+
+#box2{
+    border: 2px solid green;
+    padding-top: 85px;
+    
+}
+
+#box1, #box3{
+    border: 2px solid fuchsia;
+    margin-top: 75px;
+
+}
+
+#box1, #box2, #box3{
+    border-radius: 20px;
+
+    display: flex;
+    width: 355px;
+    height: 470px;
+    flex-direction: column;
+    padding:30px 30px ;
+}
+
+
+
+/*HOVER */
+
+#box1:hover, #box2:hover, #box3:hover{
+background-color: rgba(0, 78, 61, 0.288);
+transition: 1s;
 }
