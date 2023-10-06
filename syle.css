@@ -9,6 +9,7 @@ body{
     border:10px solid var(--bg-color);
     border-radius: 40px;
     background-color: var(--bg-color);
+    
 
 }
 
@@ -21,6 +22,8 @@ body *{
 
 :root{
     --bg-color: rgb(212, 210, 210);
+    --text-color-grey:#828799;
+    --box-shadow:var(--bg-color)
 }
 
 
@@ -68,7 +71,6 @@ div h3{
 /*MAIN BOXES*/
 
 section{
-    border: 2px solid red;
 
     display: flex;
     gap:20px;
@@ -79,11 +81,13 @@ section{
 }
 
 
+
 section div ul {    /*lista*/
     list-style: none;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
+    color:var(--text-color-grey);
 
     padding-bottom: 120px;
 }
@@ -94,10 +98,40 @@ section div p:nth-child(1){ /*Free*/
     font-weight: 600;
 
     padding-bottom: 20px;
+    max-width: 360px;
+
+    display: flex;
+    align-items: center;
+
+    
+   
+}
+
+
+
+#box2 > p:nth-child(1) {
+    border-radius: 10px;
+    background-color: #FFCC29;
+   
+}
+
+#box2 > p:nth-child(2) {
+    display: flex;
+    position: absolute;
+    
+    left: 54%;
+    padding: 5px 15px 10px;
+    border-radius: 30px;
+    background-color: #1D539E;;
+
+    margin-top: 4px;
+    
+    color: white;
+
+    
 }
 
 section div h2{ /*99,99*/
-    border: 2px solid red;
 
     display: flex;
     align-items: center;
@@ -112,7 +146,8 @@ section div h2{ /*99,99*/
 #box1 h2 p,/*  texto "/mês" */
 #box2 h2 p,
 #box3 h2 p {
-    color:  #828799;
+    color: var(--text-color-grey);
+    padding-top: 20px;
 }
 
 section div p:nth-child(3){/*descrição da box*/
@@ -120,32 +155,40 @@ section div p:nth-child(3){/*descrição da box*/
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-
+    color: var(--text-color-grey);
     padding-bottom: 40px;
 }
 
 
+ 
+
 /*BUTTON*/
 
 button{
-
+border: none;
+background-color: #1d539e5e;
+border-radius: 20px;
+padding: 20px;
+max-width: ;
 }
 
 
 
 #box2{
-    border: 2px solid green;
+    
     padding-top: 85px;
     
 }
 
 #box1, #box3{
-    border: 2px solid fuchsia;
     margin-top: 75px;
 
 }
 
 #box1, #box2, #box3{
+    box-shadow: rgb(235, 1, 1);
+    border: 2px solid gainsboro;
+
     border-radius: 20px;
 
     display: flex;
@@ -160,6 +203,12 @@ button{
 /*HOVER */
 
 #box1:hover, #box2:hover, #box3:hover{
-background-color: rgba(0, 78, 61, 0.288);
+background-color: rgba(254, 240, 255, 0.548);
 transition: 1s;
+filter: blur(0.2px);
+}
+
+button:hover{
+    background-color: rgba(202, 219, 235, 0.493);
+    transition: 0.4s;
 }
