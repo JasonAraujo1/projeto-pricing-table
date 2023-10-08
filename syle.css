@@ -196,17 +196,31 @@ padding: 20px;
     height: 470px;
     flex-direction: column;
     padding:30px 30px ;
+
+   
+   
+
+    
+    
 }
-
-
+    
 
 /*HOVER */
 
 #box1:hover, #box2:hover, #box3:hover{
-background-color: rgba(254, 240, 255, 0.548);
-transition: 1s;
+
 filter: blur(0.2px);
+
+background: linear-gradient(
+    to top,
+     rgba(255, 255, 255, 0.301),
+     rgba(248, 185, 243, 0.5));
+     transition: 2s;
+
+     
+
 }
+
 
 button:hover{
     background-color: rgba(202, 219, 235, 0.493);
