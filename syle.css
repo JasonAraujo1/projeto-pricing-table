@@ -82,15 +82,22 @@ section{
 }
 
 
-
-section div ul {    /*lista*/
+ /*MAIN LISTA*/
+section div ul {   
+    
     list-style: none;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     color:var(--text-color-grey);
-
    
+   
+}
+
+
+div ul li{
+ 
+    padding: 10px 0;
 }
 
 section div p:nth-child(1){ /*Free*/
@@ -109,7 +116,7 @@ section div p:nth-child(1){ /*Free*/
 }
 
 section> div> p:nth-child(3){ /*Free*/
-    border: 2px solid red;
+    
     
     color: var(--text-color-grey);
     font-size: 14px;
@@ -123,7 +130,6 @@ section> div> p:nth-child(3){ /*Free*/
     align-items: center;
 
     
-   
 }
 
 
@@ -142,16 +148,18 @@ section> div> p:nth-child(3){ /*Free*/
 
 #box2 h3> button:nth-child(2) {
     display: flex;
-    padding: 8px;
+    padding: 12px;
     border-radius: 30px;
     background-color: #1D539E;;
     margin-bottom: auto;
     
     color: white;
-
+    margin-right: 5px;
 }
 
-
+div h3 p{
+    padding: 15px;
+}
 
 
 
@@ -176,9 +184,7 @@ section div h2{ /*99,99*/
 }
 
 
-#box2 p{
-    padding:10px 10px;
-}
+
  
 
 /*BUTTON*/
@@ -191,6 +197,13 @@ border-radius: 20px;
 padding: 20px;
 
 margin-top: auto;
+
+
+
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+color: white;
 }
 
 
@@ -222,7 +235,7 @@ margin-top: auto;
     background: linear-gradient(
         to top,
         rgba(255, 255, 255, 0.493),
-        rgba(255, 192, 203, 0.205)
+        rgba(209, 192, 255, 0.205)
     );
  
     
@@ -235,7 +248,7 @@ margin-top: auto;
    
    
     
-    background-color: rgba(226, 158, 243, 0.288);
+    background-color: rgba(188, 158, 243, 0.288);
     transition: 1s;
     transform: scale(1.1);
     
@@ -246,6 +259,7 @@ margin-top: auto;
 button:hover{
     background-color: rgba(202, 219, 235, 0.493);
     transition: 0.4s;
+    color: var(--text-color-black);
 }
 
 
@@ -256,7 +270,7 @@ button:hover{
     background: linear-gradient(
         to top,
         rgba(255, 255, 255, 0.493),
-        rgba(255, 192, 203, 0.493)
+        rgba(206, 192, 255, 0.493)
     );
     transition: 1s;
   }
