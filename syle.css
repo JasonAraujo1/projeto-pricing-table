@@ -276,8 +276,7 @@ button:hover{
     background: linear-gradient(
         to top,
         rgba(255, 255, 255, 0.493),
-        rgba(206, 192, 255, 0.493)
-    );
+        rgba(206, 192, 255, 0.493));
     transition: 1s;
   }
   
@@ -295,8 +294,15 @@ button:hover{
  
     section{
         flex-wrap: wrap;
+        font-size::large;
     }
 
+
+    #box1, #box2, #box3{
+        
+        width: 100%;
+        margin: 60px;
+    }
 
 
 
