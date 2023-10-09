@@ -231,6 +231,7 @@ color: white;
     border-radius: 20px;
 
     display: flex;
+    
     width: 355px;
     height: 470px;
     flex-direction: column;
@@ -288,17 +289,18 @@ button:hover{
   
     main {
     background-image: url(./assets/pricing-table-background-phone.png);
-    min-height:1800px;
+    min-height:2300px;
     
     }
-   
-   body{
-  
-   }
-
  
-    /* Ajuste outras seções, elementos, ou classes conforme necessário */
-  }
+    section{
+        flex-wrap: wrap;
+    }
+
+
+
+
+}
   
 
   
