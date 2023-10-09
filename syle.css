@@ -289,13 +289,17 @@ button:hover{
   
     main {
     background-image: url(./assets/pricing-table-background-phone.png);
-    min-height:1800px;
+    min-height:1200px;
     
     }
    
    body{
     height: fit-content;
   
+   }
+
+   #box1, #box2, #box3{
+    flex-wrap:wrap ;
    }
     /* Ajuste outras seções, elementos, ou classes conforme necessário */
   }
