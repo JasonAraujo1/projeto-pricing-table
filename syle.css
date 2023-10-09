@@ -23,7 +23,8 @@ body *{
 :root{
     --bg-color: rgb(212, 210, 210);
     --text-color-grey:#828799;
-    --box-shadow:var(--bg-color)
+    --box-shadow:rgba(0, 0, 0, 0.562);
+    --text-color-black:black;
 }
 
 
@@ -89,7 +90,7 @@ section div ul {    /*lista*/
     font-weight: 600;
     color:var(--text-color-grey);
 
-    padding-bottom: 120px;
+   
 }
 
 section div p:nth-child(1){ /*Free*/
@@ -165,11 +166,13 @@ section div p:nth-child(3){/*descrição da box*/
 /*BUTTON*/
 
 button{
+
 border: none;
 background-color: #1d539e5e;
 border-radius: 20px;
 padding: 20px;
 
+margin-top: auto;
 }
 
 
@@ -186,8 +189,7 @@ padding: 20px;
 }
 
 #box1, #box2, #box3{
-    box-shadow: rgb(235, 1, 1);
-    border: 2px solid gainsboro;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); 
 
     border-radius: 20px;
 
@@ -197,32 +199,48 @@ padding: 20px;
     flex-direction: column;
     padding:30px 30px ;
 
-   
-   
+    transition: 1s;
 
-    
+    background: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.493),
+        rgba(255, 192, 203, 0.205)
+    );
+ 
     
 }
     
 
 /*HOVER */
 
-#box1:hover, #box2:hover, #box3:hover{
-
-filter: blur(0.2px);
-
-background: linear-gradient(
-    to top,
-     rgba(255, 255, 255, 0.301),
-     rgba(248, 185, 243, 0.5));
-     transition: 2s;
-
-     
-
-}
+#box1:hover, #box2:hover, #box3:hover {
+   
+    animation: jump 1.5s ease-in-out;
+    
+    background-color: rgba(226, 158, 243, 0.288);
+    transition: 1s;
+    transform: scale(1.1);
+    
+  }
+  
 
 
 button:hover{
     background-color: rgba(202, 219, 235, 0.493);
     transition: 0.4s;
 }
+
+
+
+#box1:hover, #box2:hover, #box3:hover {
+  
+    background: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.493),
+        rgba(255, 192, 203, 0.493)
+    );
+    transition: 1s;
+  }
+  
+
+ 
