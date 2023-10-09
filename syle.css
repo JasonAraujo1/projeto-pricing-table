@@ -294,17 +294,22 @@ button:hover{
  
     section{
         flex-wrap: wrap;
-        font-size::large;
+        
     }
 
 
     #box1, #box2, #box3{
         
         width: 100%;
-        margin: 60px;
+        margin: 40px 100px ;
+        font-size: 66px;
+        
+        font-weight: 1600;
     }
 
-
+    body{
+        font-size:300px;
+    }
 
 }
   
