@@ -14,8 +14,7 @@ body{
 }
 
 body *{
-    font-family: 'Quicksand', sans-serif;
-
+    font-family: 'Poiret One', cursive;
 }
 
 
@@ -100,6 +99,11 @@ div ul li{
     padding: 10px 0;
 }
 
+div ul li img{/*check list symbol*/
+    padding-right: 15px;
+   
+}
+
 section div p:nth-child(1){ /*Free*/
     font-size: 18px;
     font-style: normal;
@@ -134,7 +138,7 @@ section> div> p:nth-child(3){ /*Free*/
 
 
 
-#box2 h3{
+#box2 h3{/*yellow box 'básico'*/
     display: flex;
     border-radius: 10px;
     background-color: #FFCC29;
@@ -146,7 +150,7 @@ section> div> p:nth-child(3){ /*Free*/
 
 }
 
-#box2 h3> button:nth-child(2) {
+#box2 h3> button:nth-child(2) {/*blue box 'popular'*/
     display: flex;
     padding: 12px;
     border-radius: 30px;
@@ -207,6 +211,7 @@ color: white;
 }
 
 
+/*BOXes MAIN*/
 
 #box2{
     
