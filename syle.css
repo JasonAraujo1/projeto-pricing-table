@@ -30,8 +30,10 @@ body *{
 main{
     height: 100vh;
     background-image: url('./assets/pricing-table-background.png') ;
+    height: auto;
     background-size: cover;
     border-radius: 40px;
+    min-width: 824px;
 }
 
 /*MAIN CABEÇALHO*/
@@ -240,9 +242,8 @@ color: white;
     background: linear-gradient(
         to top,
         rgba(255, 255, 255, 0.493),
-        rgba(209, 192, 255, 0.205)
-    );
- 
+        rgba(209, 192, 255, 0.205));
+    
     
 }
     
@@ -282,3 +283,21 @@ button:hover{
   
 
  
+
+  @media screen and (max-width: 500px) {
+    
+  
+    main {
+    background-image: url(./assets/pricing-table-background-phone.png);
+    height: fit-content;
+    background;
+    }
+   
+    body{
+        height: 100vh;
+    }
+    /* Ajuste outras seções, elementos, ou classes conforme necessário */
+  }
+  
+
+  
