@@ -108,29 +108,53 @@ section div p:nth-child(1){ /*Free*/
    
 }
 
+section> div> p:nth-child(3){ /*Free*/
+    border: 2px solid red;
+    
+    color: var(--text-color-grey);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 
+    padding-bottom: 40px;
+    max-width: 360px;
 
-#box2 > p:nth-child(1) {
-    border-radius: 10px;
-    background-color: #FFCC29;
+    display: flex;
+    align-items: center;
+
+    
    
 }
 
-#box2 > p:nth-child(2) {
+
+
+#box2 h3{
     display: flex;
-    position: absolute;
-    
-    left: 54%;
-    padding: 5px 15px 10px;
+    border-radius: 10px;
+    background-color: #FFCC29;
+    justify-content: space-between;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    align-items:center ;
+
+}
+
+#box2 h3> button:nth-child(2) {
+    display: flex;
+    padding: 8px;
     border-radius: 30px;
     background-color: #1D539E;;
-
-    margin-top: 4px;
+    margin-bottom: auto;
     
     color: white;
 
-    
 }
+
+
+
+
+
 
 section div h2{ /*99,99*/
 
@@ -144,23 +168,17 @@ section div h2{ /*99,99*/
     padding-bottom: 10px;
 }
 
-#box1 h2 p,/*  texto "/mês" */
-#box2 h2 p,
-#box3 h2 p {
-    color: var(--text-color-grey);
-    padding-top: 20px;
-}
-
-section div p:nth-child(3){/*descrição da box*/
-    color: blue;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    color: var(--text-color-grey);
-    padding-bottom: 40px;
+    #box1 h2 p,/*  texto "/mês" */
+    #box2 h2 p,
+    #box3 h2 p {
+        color: var(--text-color-grey);
+        padding-top: 20px;
 }
 
 
+#box2 p{
+    padding:10px 10px;
+}
  
 
 /*BUTTON*/
@@ -215,7 +233,7 @@ margin-top: auto;
 
 #box1:hover, #box2:hover, #box3:hover {
    
-    animation: jump 1.5s ease-in-out;
+   
     
     background-color: rgba(226, 158, 243, 0.288);
     transition: 1s;
@@ -229,6 +247,7 @@ button:hover{
     background-color: rgba(202, 219, 235, 0.493);
     transition: 0.4s;
 }
+
 
 
 
