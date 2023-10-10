@@ -25,6 +25,21 @@ body *{
     --text-color-grey:#828799;
     --box-shadow:rgba(0, 0, 0, 0.562);
     --text-color-black:black;
+   
+    --gradient-before: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.918),
+        rgba(209, 192, 255, 0.418));
+
+    --lenear-gradient-after:linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.849),
+        rgba(206, 192, 255, 0.836));
+
+    --assinar: #1d539e5e;
+    --assinar-hover: rgba(202, 219, 235, 0.493);
+    --popular:#1D539E;
+    --popular-yellow: #FFCC29;
 }
 
 
@@ -47,7 +62,7 @@ div h1{
     
     font-size: 48px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
 
 }
 
@@ -89,7 +104,7 @@ section div ul {
     list-style: none;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     color:var(--text-color-grey);
    
    
@@ -109,7 +124,7 @@ div ul li img{/*check list symbol*/
 section div p:nth-child(1){ /*Free*/
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
 
     padding-bottom: 20px;
     max-width: 360px;
@@ -143,7 +158,7 @@ section> div> p:nth-child(3){ /*Free*/
 #box2 h3{/*yellow box 'básico'*/
     display: flex;
     border-radius: 10px;
-    background-color: #FFCC29;
+    background-color:var(--popular-yellow);
     justify-content: space-between;
     width: 100%;
     margin:0;
@@ -156,7 +171,7 @@ section> div> p:nth-child(3){ /*Free*/
     display: flex;
     padding: 12px;
     border-radius: 30px;
-    background-color: #1D539E;;
+    background-color: var(--popular);
     margin-bottom: auto;
     
     color: white;
@@ -177,7 +192,7 @@ section div h2{ /*99,99*/
 
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
 
     padding-bottom: 10px;
 }
@@ -193,12 +208,12 @@ section div h2{ /*99,99*/
 
  
 
-/*BUTTON*/
+/*BUTTONs Assinar*/
 
 button{
 
 border: none;
-background-color: #1d539e5e;
+background-color:var(--assinar);
 border-radius: 20px;
 padding: 20px;
 
@@ -239,11 +254,8 @@ color: white;
     padding:30px 30px ;
 
     transition: 1s;
-
-    background: linear-gradient(
-        to top,
-        rgba(255, 255, 255, 0.493),
-        rgba(209, 192, 255, 0.205));
+    background: var(--gradient-before);
+    
     
     
 }
@@ -251,36 +263,25 @@ color: white;
 
 /*HOVER */
 
-#box1:hover, #box2:hover, #box3:hover {
-   
-   
-    
-    background-color: rgba(188, 158, 243, 0.288);
-    transition: 1s;
-    transform: scale(1.1);
-    
-  }
-  
 
 
 button:hover{
-    background-color: rgba(202, 219, 235, 0.493);
+    background-color:var(--assinar-hover);
     transition: 0.4s;
     color: var(--text-color-black);
 }
 
 
-
-
 #box1:hover, #box2:hover, #box3:hover {
-  
-    background: linear-gradient(
-        to top,
-        rgba(255, 255, 255, 0.493),
-        rgba(206, 192, 255, 0.493));
+    transform: scale(1.1);
+    background: var(--lenear-gradient-after);
+    
+}
+
+div ul:hover{
+    color: var(--text-color-black);
     transition: 1s;
-  }
-  
+}
 
  
 
