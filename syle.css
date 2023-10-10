@@ -285,12 +285,14 @@ button:hover{
 
   @media screen and (max-width: 500px) {
     
-  
+    body{
+       padding-right: 300px;
+    }
+
     main {
     background-image: url(./assets/pricing-table-background-phone.png);
-    min-height:2300px;
-    margin: auto;
-    
+    min-height:2500px;
+
     }
  
     section{
@@ -303,12 +305,13 @@ button:hover{
         
         width: 100%;
         margin: 40px 100px ;
+        height: fit-content;
         
     }
 
     body *{
         
-        font-size: 22px;
+        font-size: 30px;
     }
 
     div h1{
