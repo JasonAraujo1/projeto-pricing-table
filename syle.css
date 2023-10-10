@@ -290,18 +290,11 @@ button:hover{
         min-height:3800px;
         min-width: 824px;
     }
-
     
     main {
      
-
-
-
-
-
     background-image: url(./assets/pricing-table-background-phone.png);
     min-height:3800px;
-    
 
     }
  
@@ -353,6 +346,10 @@ button:hover{
 
    ul li img {
     content: url(./assets/check-phone.svg)
+   }
+
+   ul li{
+    font-weight: 300;
    }
    
    
