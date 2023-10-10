@@ -14,7 +14,7 @@ body{
 }
 
 body *{
-    font-family: 'Poiret One', cursive;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
@@ -286,12 +286,13 @@ button:hover{
   @media screen and (max-width: 500px) {
     
     body{
-       padding-right: 300px;
+
+      
     }
 
     main {
     background-image: url(./assets/pricing-table-background-phone.png);
-    min-height:2500px;
+    min-height:2800px;
 
     }
  
@@ -310,7 +311,7 @@ button:hover{
     }
 
     body *{
-        
+        font-family: 'Rajdhani', sans-serif;
         font-size: 30px;
     }
 
@@ -323,11 +324,11 @@ button:hover{
     }
 
     #resize{
-       font-size: 30px;
+       font-size: 45px;
     }
 
     #resize2{
-        font-size: 20px;
+        font-size: 30px;
     }
 }
   
