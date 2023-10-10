@@ -14,7 +14,7 @@ body{
 }
 
 body *{
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Montserrat', sans-serif,'Rajdhani', sans-serif;
 }
 
 
@@ -289,7 +289,7 @@ button:hover{
 
     main {
     background-image: url(./assets/pricing-table-background-phone.png);
-    min-height:3500px;
+    min-height:3800px;
     margin: auto;
 
     }
@@ -309,17 +309,18 @@ button:hover{
     }
 
     body *{
-        font-family: 'Rajdhani', sans-serif,'Montserrat', sans-serif;
-
+        font-family: 'Montserrat', sans-serif,'Rajdhani', sans-serif;
         font-size: 40px;
     }
 
     div h1{
+       
+       text-align: center;
         font-size: 80px;
     }
 
     div h3{
-        font-size: 44px;
+        font-size: 40px;
     }
 
     #free{
