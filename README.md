@@ -1,5 +1,5 @@
 <h1 align="center">#6 Pricing Table </h1>
-<h2 align="center">Uma página com tabelas de preços para escolher planos de produtos ou serviços.</h2>
+<h2 align="center">Página com tabelas de preços para escolher planos de produtos ou serviços.</h2>
 
 <p align="center">
     Uma página que exibe uma tabela comparativa dos diferentes preços e planos disponíveis para um produto ou serviço. Essa tabela permite aos usuários visualizar e comparar as opções disponíveis antes de tomar uma decisão de compra.
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Este projeto tem como objetivo o desenvolvimento de uma página da web que apresenta uma tabela de preços, permitindo aos usuários comparar e selecionar entre diferentes planos de produtos ou serviços oferecidos. A página será projetada para fornecer informações claras e concisas sobre cada plano, facilitando a tomada de decisão por parte dos visitantes.
+O projeto tem como objetivo o desenvolvimento de uma página da web que apresenta uma tabela de preços, permitindo aos usuários comparar e selecionar entre diferentes planos de produtos ou serviços oferecidos. A página será projetada para fornecer informações claras e concisas sobre cada plano, facilitando a tomada de decisão por parte dos visitantes.
 
 
 
