@@ -330,10 +330,12 @@ button:hover{
 
     #free{
        font-size: 45px;
+       font-weight: 500;
     }
 
     #valor{
         font-size: 60px;
+        font-weight: 600;
     }
     
     #descrição{
