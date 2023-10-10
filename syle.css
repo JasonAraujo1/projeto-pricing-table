@@ -340,7 +340,11 @@ button:hover{
         font-size: 30px;
     }
 
-
+   ul li img {
+    content: url(./assets/check-phone.svg)
+   }
+   
+   
 }
   
 
