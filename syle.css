@@ -289,6 +289,7 @@ button:hover{
     main {
     background-image: url(./assets/pricing-table-background-phone.png);
     min-height:2300px;
+    margin: auto;
     
     }
  
@@ -318,9 +319,12 @@ button:hover{
         font-size: 34px;
     }
 
-     div p{
-        border: 2px solid red;
-        font-size: 300px;
+    #resize{
+       font-size: 30px;
+    }
+
+    #resize2{
+        font-size: 20px;
     }
 }
   
