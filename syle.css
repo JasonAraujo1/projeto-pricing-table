@@ -285,14 +285,12 @@ button:hover{
 
   @media screen and (max-width: 500px) {
     
-    body{
-
-      
-    }
+    
 
     main {
     background-image: url(./assets/pricing-table-background-phone.png);
     min-height:3500px;
+    margin: auto;
 
     }
  
