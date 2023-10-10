@@ -27,28 +27,23 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- [formsubmit.co](https://formsubmit.co) para capturar e-mails
 - Git e Github
 - Figma e Canva para design
 
 ## 💻 Projeto
 
-Site de cadastro de E-mail para Notícias Diárias. É uma plataforma que permite aos usuários se cadastrarem para receber "as últimas notícias diretamente" em suas caixas de entrada de e-mail. Através do preenchimento do
-formulário o site redireciona para um capcha de confirmação e o formsubmit.co envia o um texto de resposta automática para o usuário de e-mail cadastrado.
+Este projeto tem como objetivo o desenvolvimento de uma página da web que apresenta uma tabela de preços, permitindo aos usuários comparar e selecionar entre diferentes planos de produtos ou serviços oferecidos. A página será projetada para fornecer informações claras e concisas sobre cada plano, facilitando a tomada de decisão por parte dos visitantes.
 
 
-## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](<https://jasonaraujo1.github.io/projeto-news/>). 
+## 🎨 Layout 
 
-## 📝 Instruções de Cadastro
 
-1. Acesse o [News](<https://jasonaraujo1.github.io/projeto-news/>). 
-2. Preencha o formulário de cadastro com seu endereço de e-mail.
-3. Clique no icon de enviar(seta).
-4. Verifique sua caixa de entrada de e-mail para confirmar a inscrição.
+Design interativo torna a página de tabela de preços mais envolvente com elementos como efeitos "hover," botões de alternância, realce de recursos e feedback visual. Isso facilita as decisões dos usuários, aumenta as conversões e destaca a marca/produto.
 
-Após a confirmação, você começará a receber notícias diárias em seu e-mail!
+## 🖼️ Preview
+
+Você pode visualizar o layout do projeto através [DESSE LINK](<https://jasonaraujo1.github.io/projeto-pricing-table/>). 
 
 ## :memo: Licença
 
