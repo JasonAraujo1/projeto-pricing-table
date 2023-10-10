@@ -5,6 +5,7 @@
 }
 
 body{
+   
     height:100vh;
     border:10px solid var(--bg-color);
     border-radius: 40px;
@@ -285,12 +286,22 @@ button:hover{
 
   @media screen and (max-width: 500px) {
     
-    
+    body{
+        min-height:3800px;
+        min-width: 824px;
+    }
 
+    
     main {
+     
+
+
+
+
+
     background-image: url(./assets/pricing-table-background-phone.png);
     min-height:3800px;
-    margin: auto;
+    
 
     }
  
