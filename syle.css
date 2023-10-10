@@ -292,7 +292,7 @@ button:hover{
 
     main {
     background-image: url(./assets/pricing-table-background-phone.png);
-    min-height:2800px;
+    min-height:3500px;
 
     }
  
@@ -312,24 +312,35 @@ button:hover{
 
     body *{
         font-family: 'Rajdhani', sans-serif;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     div h1{
-        font-size: 70px;
+        font-size: 80px;
     }
 
     div h3{
-        font-size: 34px;
+        font-size: 44px;
     }
 
-    #resize{
+    #free{
        font-size: 45px;
     }
 
-    #resize2{
+    #valor{
+        font-size: 60px;
+    }
+    
+    #descrição{
+        font-size: 40px;
+
+    }
+
+    #mes{
         font-size: 30px;
     }
+
+
 }
   
 
