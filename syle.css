@@ -309,7 +309,8 @@ button:hover{
     }
 
     body *{
-        font-family: 'Rajdhani', sans-serif;
+        font-family: 'Rajdhani', sans-serif,'Montserrat', sans-serif;;
+
         font-size: 40px;
     }
 
